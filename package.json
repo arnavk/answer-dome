@@ -1,0 +1,25 @@
+{
+  "name": "answer-dome",
+  "version": "0.0.1",
+  "description": "Answering life's most important questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radzinzki/answer-dome.git"
+  },
+  "keywords": [
+    "bionic",
+    "bonanza",
+    "arnav",
+    "kumar"
+  ],
+  "author": "Arnav Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radzinzki/answer-dome/issues"
+  },
+  "homepage": "https://github.com/radzinzki/answer-dome"
+}
