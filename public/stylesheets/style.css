@@ -18,6 +18,11 @@
 .btn-warning {
 	background-color: rgba(0,0,0,0);
 }
+.btn-warning.disabled,
+.btn-warning[disabled]
+{
+	background-color: rgba(0,0,0,0);
+}
 
 .well {
     background-color: rgba(0, 0, 0, 0.7);
@@ -26,4 +31,23 @@
 
 .text-box {
 	border: 1px solid #ddd;
+}
+
+.form-control {
+	background-color: rgba(0,0,0,0);
+	color: #fff;
+}
+
+.row {
+	margin-top: 15px;
+}
+
+body {
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('/images/bonanza-b.jpg');
 }

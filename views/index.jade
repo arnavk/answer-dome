@@ -24,27 +24,28 @@ block content
           .row
             .col-md-12
               h1.cover-heading Welcome to the Answer Dome.
-              p.lead ... Where you can ponder over life's most important questions
+              p.lead ... where you can ponder over life's most important questions
 
         .well
           .row
             .col-md-9
-              p
-                input.typeahead.form-control(id="search", type="text", data-provide="typeahead", autocomplete="off", placeholder="Enter question")
+              p.form-control.input-lg
+                //- input.typeahead.form-control(id="search", type="text", data-provide="typeahead", autocomplete="off", placeholder="Enter question")
+                span#question getting a question ...
             .col-md-3
-              .btn.btn-warning.btn-block#randomize
+              .btn.btn-warning.btn-block.btn-lg#randomize
                 | Randomize
           //- .row
           //-   .col-md-12
           //-     p.lead
           //-       input.form-control(type="text", placeholder="Enter answer")
 
-        .row
-          .col-md-12
-            h2 Recent Questions
+        //- .row
+        //-   .col-md-12
+        //-     h2 Recent Questions
 
         .mastfoot
-          .inner
+          .inner.well
             p Concept by&nbsp;
               a(href='https://twitter.com/iMyke') @iMyke&nbsp;
               | and&nbsp;
@@ -54,7 +55,7 @@ block content
             p Built with ❤ by&nbsp;
               a(href='https://twitter.com/_ArnavKumar') @_ArnavKumar
               | , from the Asian subsidiary of&nbsp;
-              a(href='http://vlcnr.com') VLCNR Software
+              a(href='http://vlcnr.com') VLCNRSoft
               |.
 
   script(src='/javascripts/application.js')
