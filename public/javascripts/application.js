@@ -15,7 +15,7 @@ blockAssets = function() {
 }
 
 freeAssets = function() {
-  $('#randomize').text('Next Question');
+  $('#randomize').text('Next');
   $('#randomize').removeAttr("disabled");
 }
 
