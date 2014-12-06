@@ -12,13 +12,7 @@ router.get('/', function(req, res) {
 });
 
 router.post('/update', function(req, res){
+	// not implemented yet.
 });
-
-router.get('/question', function (req, res) {
-	var v = "why does everyone";
-  res.json(v);
-});
-
-var list = [1, 2, 3, 4];
 
 module.exports = router;

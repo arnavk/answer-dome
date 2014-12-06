@@ -30,7 +30,6 @@ getQuestion = function(prefix) {
 }
 
 setQuestion = function(data){
-  console.log(data);
   if (data[1].length < 10) {
     getQuestion(generatePrefix());
     return;
@@ -50,7 +49,6 @@ var v = ['can', 'do', 'could', 'did', 'does', 'can\'t', 'don\'t', 'doesn\'t', 'c
 generatePrefix = function() {
   var noun = randomAlphabet();
   var s = randomFromArray(q) + " " + randomFromArray(v) + " " + noun;
-  console.log(s);
   return s;
 }
 
