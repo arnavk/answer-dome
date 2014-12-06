@@ -1,0 +1,29 @@
+.form-large{
+    font-size: 60px;
+}
+
+.form-large .control-label{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: normal;
+}
+
+.form-large input, .form-large  button{
+    font-size: 60px;
+    padding: 20px;
+    height: auto;
+    line-height: normal;
+}
+
+.btn-warning {
+	background-color: rgba(0,0,0,0);
+}
+
+.well {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: medium none;
+}
+
+.text-box {
+	border: 1px solid #ddd;
+}

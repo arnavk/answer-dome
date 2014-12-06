@@ -1,0 +1,61 @@
+extends layout
+
+//- block content
+//-   div.top
+//-   div.container
+//-     div.content
+//-       input.typeahead(id="search", type="text", data-provide="typeahead", autocomplete="off", name="User", placeholder="Enter question")
+//-   div.footer
+
+//-
+
+block content
+  .site-wrapper
+    .site-wrapper-inner
+      .cover-container
+        .masthead.clearfix
+          .inner
+            h3.masthead-brand Answer Dome
+            nav
+              ul.nav.masthead-nav
+                li
+                  a(href='http://relay.fm/bonanza') Bonanza
+        .inner.cover.well
+          .row
+            .col-md-12
+              h1.cover-heading Welcome to the Answer Dome.
+              p.lead ... Where you can ponder over life's most important questions
+
+        .well
+          .row
+            .col-md-9
+              p
+                input.typeahead.form-control(id="search", type="text", data-provide="typeahead", autocomplete="off", placeholder="Enter question")
+            .col-md-3
+              .btn.btn-warning.btn-block#randomize
+                | Randomize
+          //- .row
+          //-   .col-md-12
+          //-     p.lead
+          //-       input.form-control(type="text", placeholder="Enter answer")
+
+        .row
+          .col-md-12
+            h2 Recent Questions
+
+        .mastfoot
+          .inner
+            p Concept by&nbsp;
+              a(href='https://twitter.com/iMyke') @iMyke&nbsp;
+              | and&nbsp;
+              a(href='https://twitter.com/mattalexand') @MattAlexand&nbsp;
+              | of&nbsp;
+              a(href='http://relay.fm/bonanza') Bonanza&nbsp;
+            p Built with ❤ by&nbsp;
+              a(href='https://twitter.com/_ArnavKumar') @_ArnavKumar
+              | , from the Asian subsidiary of&nbsp;
+              a(href='http://vlcnr.com') VLCNR Software
+              |.
+
+  script(src='/javascripts/application.js')
+
