@@ -11,11 +11,11 @@ $(document).ready(function () {
 blockAssets = function() {
   $('#randomize').text('Generating...');
   $('#randomize').attr("disabled", true);
-  $('#question').text("... awaiting awesomeness ...");
+  $('#question').text("... brewing ...");
 }
 
 freeAssets = function() {
-  $('#randomize').text('Randomize');
+  $('#randomize').text('Next Question');
   $('#randomize').removeAttr("disabled");
 }
 

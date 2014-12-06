@@ -15,9 +15,11 @@
     line-height: normal;
 }
 
+.btn-warning:active,
 .btn-warning {
 	background-color: rgba(0,0,0,0);
 }
+
 .btn-warning.disabled,
 .btn-warning[disabled]
 {
